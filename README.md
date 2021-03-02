@@ -5,25 +5,25 @@
 
 Requirements:
 1. First the email will be sent through the API
-2. If it is a registered email id, then the response should be
-{
- user_id:
- login_type: signin
-}
+2. If it is a registered email id, then the response should be <br/>
+{ <br/>
+ user_id: <br/>
+ login_type: signin <br/>
+}<br/>
 3. The userId and password will be sent to the same API
- If the credentials are correct, them the response should be
-{
- message: " login successful "
-}
- Else the response should be
-{
-message: "failed"
-}
-4. In the step 1, if the email id is not registered, then the response should be
-{
- user_id: "not registered"
- login_type: "signup"
-}
+ If the credentials are correct, them the response should be<br/>
+{<br/>
+ message: " login successful "<br/>
+}<br/>
+ Else the response should be<br/>
+{<br/>
+message: "failed"<br/>
+}<br/>
+4. In the step 1, if the email id is not registered, then the response should be<br/>
+{<br/>
+ user_id: "not registered"<br/>
+ login_type: "signup"<br/>
+}<br/>
 5. To register new user, the following details will be sent though the API
  Email address, Password, First Name, Last Name
  
